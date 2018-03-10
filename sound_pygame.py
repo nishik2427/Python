@@ -1,6 +1,7 @@
 import pygame.mixer
 import time
 
+
 def main():
     pygame.mixer.init(frequency = 44100 )
     pygame.mixer.music.load("警報音声.wav")        # 音楽ファイルの読み込み
